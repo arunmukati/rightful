@@ -1,0 +1,38 @@
+.wrapper{
+    width: 100%;
+    height: 100%;  
+    .toolbar{
+        position: fixed;
+        top: 0;
+    }
+    .content{
+        padding: 0 3%;
+    }
+    .string-div{
+        padding: 20px;
+        // display: flex;
+        // align-items: center;
+        button{
+            margin-left: 20px;
+        }
+        mat-form-field{
+            margin-right: 20px;
+        }
+        h1{
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+    .json-div{
+        padding: 20px;
+        background-color: #efefef;
+        .functions{
+            float: right;
+            i{
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
